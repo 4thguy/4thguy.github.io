@@ -4,8 +4,13 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="http://bootswatch.com/readable/bootstrap.min.css">
 	<style>
-		td {
+		.horizontal-padding {
 			padding: 2px 0;
+		}
+		
+		.align-middle {
+			display: block;
+			margin: auto;
 		}
 		
 		.btn-disabled {
@@ -23,33 +28,29 @@
 			<h1>4thguy.github.io</h1>
 			<p>Actual page coming soon, for now this is a short list of demos that I'm sharing</p>
 			<h2>CSS demos</h2>
-			<table class="container">
-				<tbody>
-					<tr>
-						<td><a href="www.medium.com">Medium</a> Clone</td>
-						<td><a href="https://medium.com/@4thguy/well-they-do-say-that-imitation-is-the-best-form-of-flattery-50243c593bc1" class="btn btn-info">Info</a></td>
-						<td><a href="https://github.com/4thguy/medium-clone" class="btn btn-primary">Repository</a></td>
-						<td><a href="medium-clone" class="btn btn-primary">Demo</a></td>
-					</tr>
-					<tr>
-						<td>Company page</td>
-						<td><a href="#" class="btn btn-info btn-disabled">Info</a></td>
-						<td><a href="#" class="btn btn-primary btn-disabled">Repository</a></td>
-						<td><a href="company-page" class="btn btn-primary">Demo</a></td>
-					</tr>
-				</tbody>
-			</table>
+			<div class="container">
+				<div class="row horizontal-padding">
+					<div class="col-sm-12 col-md-6"><a href="www.medium.com">Medium</a> Clone</div>
+					<div class="col-xs-4 col-md-2"><a href="https://medium.com/@4thguy/well-they-do-say-that-imitation-is-the-best-form-of-flattery-50243c593bc1" class="btn btn-info align-middle">Info</a></div>
+					<div class="col-xs-4 col-md-2"><a href="https://github.com/4thguy/medium-clone" class="btn btn-primary align-middle">Repository</a></div>
+					<div class="col-xs-4 col-md-2"><a href="medium-clone" class="btn btn-primary align-middle">Demo</a></div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-md-6">Company page</div>
+					<div class="col-xs-4 col-md-2"><a href="#" class="btn btn-info btn-disabled align-middle">Info</a></div>
+					<div class="col-xs-4 col-md-2"><a href="#" class="btn btn-primary btn-disabled align-middle">Repository</a></div>
+					<div class="col-xs-4 col-md-2"><a href="company-page" class="btn btn-primary align-middle">Demo</a></div>
+				</div>
+			</div>
 			<h2>JavaScript demos</h2>
-			<table class="container">
-				<tbody>
-					<tr>
-						<td>RSS feed reader</td>
-						<td><a href="#" class="btn btn-info btn-disabled">Info</a></td>
-						<td><a href="https://github.com/4thguy/feed-reader" class="btn btn-primary">Repository</a></td>
-						<td><a href="feed-reader" class="btn btn-primary">Demo</a></td>
-					</tr>
-				</tbody>
-			</table>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-6">AngularJS RSS feed reader</div>
+					<div class="col-xs-4 col-md-2"><a href="#" class="btn btn-info btn-disabled align-middle">Info</a></div>
+					<div class="col-xs-4 col-md-2"><a href="https://github.com/4thguy/feed-reader" class="btn btn-primary align-middle">Repository</a></div>
+					<div class="col-xs-4 col-md-2"><a href="feed-reader" class="btn btn-primary align-middle">Demo</a></div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
