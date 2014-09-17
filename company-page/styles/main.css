@@ -1,0 +1,157 @@
+body {
+  color: white; }
+
+a {
+  color: #f2101a; }
+
+input,
+textarea {
+  border-radius: 8px;
+  color: black; }
+
+.bold-text {
+  font-weight: bold; }
+
+.transition {
+  transition: all 0.333s ease-in-out; }
+
+.row {
+  margin: 0;
+  padding: 0; }
+  .row:nth-child(even) {
+    background-color: #d02129; }
+    .row:nth-child(even) h2 {
+      color: #171614; }
+  .row:nth-child(odd) {
+    background-color: #171614; }
+    .row:nth-child(odd) h2 {
+      color: #d02129; }
+  .row .row {
+    background-color: transparent; }
+
+.btn-default {
+  background-color: #171614;
+  border-color: #171614;
+  background-image: linear-gradient(to bottom, #171614 0, #171614 100%);
+  color: white; }
+  .btn-default:hover {
+    background-color: #171614;
+    border-color: #171614;
+    background-image: linear-gradient(to bottom, #171614 0, #171614 100%); }
+
+.btn-primary {
+  background-color: #d02129;
+  border-color: #d02129;
+  background-image: linear-gradient(to bottom, #d02129 0, #d02129 100%);
+  color: white; }
+  .btn-primary:hover {
+    background-color: #d02129;
+    border-color: #d02129;
+    background-image: linear-gradient(to bottom, #d02129 0, #d02129 100%); }
+
+.show-xs,
+.hide-sm,
+.hide-md,
+.hide-lg {
+  display: block;
+  opacity: 1; }
+
+.hide-xs,
+.show-sm,
+.show-md,
+.show-lg {
+  display: none;
+  opacity: 0; }
+
+@media (min-width: 768px) {
+  .show-sm {
+    display: block;
+    opacity: 1; }
+
+  .hide-sm {
+    display: none;
+    opacity: 0; } }
+@media (min-width: 992px) {
+  .show-md {
+    display: block;
+    opacity: 1; }
+
+  .hide-md {
+    display: none;
+    opacity: 0; } }
+@media (min-width: 1200px) {
+  .show-lg {
+    display: block;
+    opacity: 1; }
+
+  .hide-lg {
+    display: none;
+    opacity: 0; } }
+.logo {
+  background: url(../images/logo.png) no-repeat;
+  background-size: contain;
+  background-position: center left;
+  height: 70px;
+  width: 322px; }
+  .logo.navbar-brand {
+    height: 20px;
+    margin: 10px 0; }
+  .logo.body-logo {
+    height: 52px;
+    width: 246px; }
+
+.navbar.navbar-default {
+  background-color: #171614;
+  border-color: #171614;
+  background-image: linear-gradient(to bottom, #171614 0, #171614 100%); }
+
+ul li {
+  list-style-image: url(../images/tick-sprite.png);
+  vertical-align: top; }
+
+.no-padding {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.padding-xs {
+  padding-top: 8px;
+  padding-bottom: 8px; }
+
+.padding-sm {
+  padding: 12px 0; }
+
+.padding-md {
+  padding: 24px 0; }
+
+.padding-lg {
+  padding: 48px 0; }
+
+@media (min-width: 768px) {
+  .vertical-align.parent {
+    position: relative; }
+    .vertical-align.parent .child {
+      position: absolute;
+      top: 0;
+      bottom: 0; }
+      .vertical-align.parent .child.align-left {
+        left: 0; }
+      .vertical-align.parent .child.align-right {
+        right: 0; }
+      .vertical-align.parent .child .btn-middle {
+        position: absolute;
+        top: 50%;
+        margin-top: -19px; }
+        .vertical-align.parent .child .btn-middle.btn-xs {
+          margin-top: -11px; }
+        .vertical-align.parent .child .btn-middle.btn-sm {
+          margin-top: -15px; }
+        .vertical-align.parent .child .btn-middle.btn-lg {
+          margin-top: -23px; } }
+.row.sign-up {
+  background-color: white; }
+
+.row.sign-up h2 {
+  color: #171614; }
+
+.row.sign-up h3 {
+  color: #d02129; }
